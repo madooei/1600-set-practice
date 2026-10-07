@@ -50,20 +50,13 @@ public final class SetOperations {
 
   // Returns true if value is in arr.
   private static boolean contains(int[] arr, int value) {
-    for (int i = 0; i < arr.length; i++) {
-      if (arr[i] == value) {
-        return true;
-      }
-    }
-    return false;
+    // TODO: Implement me
+    throw new UnsupportedOperationException("TODO: Implement me");
   }
 
   // Returns a new array holding the first length values of arr.
   private static int[] trim(int[] arr, int length) {
-    int[] trimmed = new int[length];
-    for (int t = 0; t < length; t++) {
-      trimmed[t] = arr[t];
-    }
-    return trimmed;
+    // TODO: Implement me
+    throw new UnsupportedOperationException("TODO: Implement me");
   }
 }
