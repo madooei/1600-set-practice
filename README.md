@@ -39,7 +39,7 @@ code/
 - `scripts/test.sh practice.SortedIntersectionTest` — compiles everything and runs only that test class. Use this while you are working on one operation and the others are still empty.
 - `scripts/run.sh demo.SetOperationsDemo` — compiles everything and runs that one demo. Every problem class has its own demo, `<Class>Demo`.
 
-## What's here
+## Contents
 
 - `practice.SetOperations` — `union`, `intersection`, and `difference` for two unsorted arrays, and `sortedIntersection` and `sortedDifference` for two sorted arrays. Every method returns a new array and leaves its inputs unchanged. The union of two sorted arrays is not repeated here; it is `SortedUnion.union` in the merge sort practice code.
 - `practice.UnionTest`, `practice.IntersectionTest`, `practice.DifferenceTest` — tests for the three operations on unsorted arrays.
