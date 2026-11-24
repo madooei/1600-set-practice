@@ -19,6 +19,8 @@ code/
     main/
       practice/
         SetOperations.java              # union, intersection, difference on arrays
+      demo/
+        SetOperationsDemo.java
     test/
       practice/
         UnionTest.java
@@ -28,17 +30,18 @@ code/
         SortedDifferenceTest.java
   scripts/
     test.sh                             # compile and run every JUnit test
+    run.sh                              # compile and run one demo
 ```
 
 ## How to compile and run
 
 - `scripts/test.sh` — compiles everything and runs the full JUnit suite.
 - `scripts/test.sh practice.SortedIntersectionTest` — compiles everything and runs only that test class. Use this while you are working on one operation and the others are still empty.
-
-There is no demo program for this problem; the tests are how you check your work.
+- `scripts/run.sh demo.SetOperationsDemo` — compiles everything and runs that one demo. Every problem class has its own demo, `<Class>Demo`.
 
 ## What's here
 
 - `practice.SetOperations` — `union`, `intersection`, and `difference` for two unsorted arrays, and `sortedIntersection` and `sortedDifference` for two sorted arrays. Every method returns a new array and leaves its inputs unchanged. The union of two sorted arrays is not repeated here; it is `SortedUnion.union` in the merge sort practice code.
 - `practice.UnionTest`, `practice.IntersectionTest`, `practice.DifferenceTest` — tests for the three operations on unsorted arrays.
 - `practice.SortedIntersectionTest`, `practice.SortedDifferenceTest` — tests for the two operations on sorted arrays.
+- `demo.SetOperationsDemo` — the demo of `SetOperations`, on the example from the notes.
